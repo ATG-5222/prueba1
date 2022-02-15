@@ -110,7 +110,7 @@ def main():
                 laser_list.remove(laser)
         
         #screen.fill(blanco)
-
+        #Aqi borre las cosas
         pygame.display.flip()
         clock.tick(60)
         
