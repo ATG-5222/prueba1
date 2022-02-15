@@ -110,10 +110,6 @@ def main():
                 laser_list.remove(laser)
         
         #screen.fill(blanco)
-        screen.blit(fondo, fondorect)
-        all_sprite_list.draw(screen) #se pintan todos los sprites
-        screen.blit(texto("Score:", 60, BLANCO), (ANCHO / 3, 10))
-        screen.blit(texto(str(score), 60, BLANCO), (ANCHO / 2, 10))
 
         pygame.display.flip()
         clock.tick(60)
